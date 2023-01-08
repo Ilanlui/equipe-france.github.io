@@ -1,0 +1,262 @@
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0 auto;
+}
+
+/* tete de page */
+
+header.header {
+    display: flex;
+    align-items: center;
+}
+
+header.header img {
+    width: 150px;
+}
+
+section.top-page {
+    background: url('../images/menu/fond\ bleu.jpg');
+    background-size: cover;
+    height: 80vh;
+    padding: 25px;
+}
+
+.Logo2 {
+    position: relative;
+    margin-right: 10px;
+    top: 10px;
+    left: 1500px;
+}
+
+/* page de bienvenue (landing page) */
+.big-title {
+    position: relative;
+    color: rgb(194, 163, 117);;
+    font-size: 80px;
+    padding: 20px 50 px;
+    left:350px;
+    margin-top: 75px;
+}
+
+/* menu de navigation */
+
+nav.nav {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 750px;
+    margin-left:30px;
+}
+
+nav.nav li a {
+    position: relative;
+    color: red;
+    text-decoration: none;
+    left: 0px;
+    font-size: 25px;
+}
+
+a.top {
+    position:fixed;
+    color: red;
+    font-size: 45px;
+    text-decoration: none;
+    margin-right: 10px;
+    bottom: 10px;
+    right: 10px;
+ }
+
+/* Histoire */
+
+.Histoire {
+    margin:50px;
+}
+
+.texte-histoire {
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+.img-hist {
+    left:420px;
+    position: relative;
+}
+
+
+/* Les meilleurs moments */
+
+.section-title {
+    font-size: 50px;
+    font-weight: 100;
+    position: relative;
+    text-decoration: none;
+}
+
+.section-title::before {
+    content: "";
+    position: absolute;
+    background-color: rgb(255, 0, 0);
+    width: 50px;
+    height: 7px;
+    bottom: 0;
+}
+
+.meilleurs-moments {
+    margin: 50px;
+    text-decoration: none;
+}
+
+.meilleurs-photo {
+    margin-top: 20px;
+    background-color: red;
+    min-height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.photo {
+    position:relative;
+    background-size: cover;
+    background-position: center;
+    min-width: 350px;
+    height: 500px;
+    flex: 1;
+}
+
+.photo1{
+    background-image: url(../images/moment/1998.jpg);
+}
+
+.photo2{
+    background-image: url(../images/moment/2000.jpg);
+}
+
+.photo3{
+    background-image: url(../images/moment/2018.jpg);
+}
+
+.photo-details{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    background-color: #FFFFFFDF;
+    padding: 5px 20px;
+    background-position: center;
+}
+
+.photo-name{
+    font-size: 22px;
+    font-weight:600;
+    color:blue;
+}
+
+/* Statisitiques  */
+
+.Statistiques {
+    margin:50px;
+}
+
+.tableau {
+    background-color: white;
+    margin-left: 20px;
+    margin-right: 60px;
+    min-height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Tableau  */
+*, *:before, *:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+table {
+  background: #07108f;
+  border-radius: 0.25em;
+  border-collapse: collapse;
+  margin: 1em;
+}
+th {
+  border-bottom: 1px solid #45b0d1;
+  color: rgb(197, 11, 11);
+  font-size: 0.85em;
+  font-weight: 600;
+  padding: 0.5em 1em;
+  text-align: left;
+}
+td {
+  color: rgb(255, 255, 255);
+  font-weight: 400;
+  padding: 0.65em 1em;
+}
+.disabled td {
+  color: rgb(255, 255, 255);
+}
+tbody tr {
+  transition: background 0.25s ease;
+}
+tbody tr:hover {
+  background: #2485a5;
+}
+
+.texte-table {
+    color: rgb(194, 163, 117);
+    font-size: 25px;
+}
+
+.photo4 {
+    margin-left: 15px;
+    margin-top: 45px;
+    position:relative;
+    background-size: cover;
+    background-position: center;
+    min-width: 330px;
+    height: 470px;
+    flex: 1;
+    background-image: url(../images/menu/Lloris-Giroud.jpg);
+    
+}
+
+
+/* Résumé */
+
+.Résumé {
+    margin:50px;
+}
+
+.controls {
+    margin-left: 20px;
+}
+
+.Résumé1 {
+    margin-left:375px;
+}
+
+.texte-Résumé {
+    position: relative;
+    margin-top:20px;
+    left: 650px;
+    color: rgb(194, 163, 117);
+    font-size: 25px;
+}
+
+
+/* Bas de page */
+
+.bas-page {
+    font-size:20px;
+    margin-top:40px;
+    margin-bottom:20px;
+    margin-left:40px;
+    position:relative;
+    background-position: center;
+}
